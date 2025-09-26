@@ -1,0 +1,13 @@
+/* ====== Custom styles for Edgar's portfolio ====== */
+/* Reveal animation */
+.reveal { opacity: 0; transform: translateY(12px); transition: opacity .4s, transform .4s; }
+.revealed { opacity: 1; transform: translateY(0); }
+
+/* Utility tweaks if you ever remove Tailwind */
+.badge { padding: 0.25rem 0.5rem; font-size: 0.75rem; border-radius: 9999px; border: 1px solid rgb(228 228 231); }
+
+/* Light card baseline (works with Tailwind classes already present) */
+.card { border-radius: 1rem; background: #fff; box-shadow: 0 10px 20px -10px rgba(0,0,0,.15); }
+
+/* Focus ring for accessibility */
+:focus-visible { outline: 2px solid rgb(79 70 229); outline-offset: 2px; }
